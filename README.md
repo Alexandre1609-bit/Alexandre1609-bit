@@ -91,7 +91,7 @@ Voici une sélection de projets où j'applique mes standards de qualité :
 * **Sentinelle API** : Backend sécurisé développé avec FastAPI. Focus sur la documentation et la structure modulaire.
 * **Bibliothèque** : Application complète (Spring Boot, Vanilla JS) sans ORM pour une maîtrise totale du SQL (JDBC), intégrant une architecture MVC stricte et une implémentation manuelle de la sécurité (SHA-256 + Salage).
 * **Neural Network "From Scratch"** : Implémentation d'un réseau de neurones (Dataset Iris) sans framework de haut niveau, pour comprendre les mathématiques sous-jacentes.
-* **HomeLab K8s (En cours)** : Montage d'un cluster Kubernetes sur matériel physique (Bare-metal) pour maîtriser la chaîne DevOps de bout en bout.
+* **HomeLab K8s (En cours)** : Montage d'un cluster Kubernetes sur matériel physique (Bare-metal) pour maîtriser la chaîne DevSecOps de bout en bout.
 
 ---
 
