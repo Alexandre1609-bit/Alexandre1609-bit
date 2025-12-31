@@ -12,7 +12,7 @@
     <a href="https://github.com/Alexandre1609-bit?tab=repositories">
       <img src="https://img.shields.io/badge/Focus-Clean%20Code-C19A6B?style=for-the-badge&logo=github&logoColor=white" alt="Clean Code Focus" />
     </a>
-    <a href="https://www.linkedin.com/in/alexandre-regnier-dev59/">
+    <a href="(https://www.linkedin.com/in/alexandre-regnier2/">
       <img src="https://img.shields.io/badge/-LinkedIn-FFF8DC?style=for-the-badge&logo=linkedin&logoColor=3B2F2F&labelColor=FFF8DC" alt="LinkedIn" />
     </a>
   </p>
