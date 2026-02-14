@@ -100,7 +100,7 @@ Voici une sélection de projets où j'applique mes standards de qualité :
 Ma curiosité ne s'arrête pas au terminal.
 * **Culture & Langue** : L'apprentissage du Japonais (N2) m'a appris la résilience et l'attention au détail.
 * **Curiosité Insatiable** : Je suis un "touche-à-tout" approfondi. Quand un sujet me passionne, je dois en comprendre le fonctionnement interne.
-* **Veille Active** : Je ne consomme pas la tech, je l'analyse.
+* **Veille Active** : Je ne me contente pas de consommer, j'analyse.
 
 ---
 
@@ -109,5 +109,4 @@ Ma curiosité ne s'arrête pas au terminal.
     <img src="https://img.shields.io/badge/Contact-Email%20Me-C19A6B?style=flat-square&logo=microsoft-outlook&logoColor=white" alt="Email" />
   </a>
   <br/><br/>
-  <sub>L'objectif n'est pas de tout savoir, mais de savoir exactement ce que l'on fait.</sub>
 </div>
