@@ -58,9 +58,9 @@ Je ne me contente pas des standards actuels. Je surveille et j'expérimente les 
 
 | Vecteur | Technologie | Pourquoi ? |
 | :--- | :--- | :--- |
-| **Performance** | **Rust** | Pour la sécurité mémoire (Memory Safety) là où C/C++ échouent. |
-| **Noyau** | **eBPF / Cilium** | L'avenir de l'observabilité et de la sécurité réseau sans sidecars. |
-| **Défense** | **Post-Quantum Crypto** | Préparation à la menace "Q-Day" (Migration PKI). |
+| **Performance** | **Rust** | Pour la sécurité mémoire (Memory Safety) |
+| **Noyau** | **eBPF / Cilium** | L'avenir de l'observabilité et de la sécurité réseau |
+| **Défense** | **Post-Quantum Crypto** | Préparation à la menace "Q-Day" |
 
 ---
 
