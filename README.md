@@ -26,8 +26,6 @@ Mon parcours est atypique. Diplômé d'une formation linguistique exigeante (**J
 
 Je suis actuellement en **DU MPCSI** (Remise à niveau scientifique) pour consolider mes bases mathématiques avant d'intégrer le **BUT Informatique** (2026). 
 
-Ce qui me définit ? Je ne cherche pas la solution rapide, je cherche la **compréhension profonde**.
-
 ---
 
 ### Philosophie de Travail : "Clean Code First"
