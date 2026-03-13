@@ -77,8 +77,9 @@ Validation progressive des compétences standards de l'industrie.
 | **☸️ Kubernetes** | **CKA** (Administrator) | CNCF | 🔮 *Long Terme* |
 | | **CKS** (Security) | CNCF | 🔮 *Long Terme* |
 | **🛡️ Sécurité** | **OSCP** (Offensive Security) | OffSec | 🔮 *Long Terme* |
-| **🔍️ Autres** | **FinOps Foundation** | Environnement | 🔮 *Long Terme* |
-|  | **AI security GIAC GAISC/CNF** | **IA (à surveiller)** | 🔮 *Long Terme* |
+  | **AI Security** *(à définir)* | GIAC | 🔮 *Long Terme* |
+| **♻️ FinOps** | **FinOps Practitionner** | FinOps Foundation | 🔮 *Long Terme* |
+
 
 > **Légende :** ✅ Validé | 📅 Planifié (Court terme) | 🎯 Objectif | 🔮 Objectif Long Terme
 
