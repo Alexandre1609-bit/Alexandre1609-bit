@@ -30,7 +30,7 @@ Je suis actuellement en **DU MPCSI** (Remise à niveau scientifique) pour consol
 
 ### Philosophie de Travail : "Clean Code First"
 
-Mon approche du développement est mentorée et stricte. Je refuse le "copier-coller" aveugle.
+Mon approche du développement est rigoureuse et stricte. Je refuse le "copier-coller" aveugle.
 > **Ma règle d'or :** Chaque ligne de code présente sur ce profil a été écrite, comprise et justifiée. Je vise la qualité industrielle (Clean Code) dès mes premiers projets d'étudiant.
 >
 > La discipline au quotidien m'aide à ancrer les connaissances apprises sur le long terme.
@@ -45,7 +45,7 @@ Je construis mon expertise brique par brique, en alliant développement backend 
 | :--- | :--- |
 | **Backend** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white) |
 | **API & Data** | **FastAPI** (Sentinelle API), **SQL**, JSON/Excel Parsing |
-| **Infrastructure** | ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black) **HomeLab Bare-metal**, **Kubernetes** (Learning), Docker |
+| **Infrastructure** | ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black) **Projet Himmel (HomeLab Bare-metal)**, **Kubernetes** (Learning), Docker |
 | **Sécurité** | **TryHackMe** (Pre-security / Cyber Security 101) |
 
 ---
