@@ -72,13 +72,13 @@ Validation progressive des compétences standards de l'industrie.
 | **🌐 Réseau** | **CCNA** (Routing & Switching) | Cisco | 📅 **Été 2026** |
 | **☁️ Infrastructure** | **Terraform Associate** | HashiCorp | 🎯 Target |
 | | **AWS Architect Associate** | AWS | 🔮 *Long Terme* |
-  | **AWS Certified Security Speciality** | AWS | 🔮 *Long Terme* |
-  | **Azure Security Engineer** | Azure | 🔮 *Long Terme* |
+|  | **AWS Certified Security Speciality** | AWS | 🔮 *Long Terme* |
+|  | **Azure Security Engineer** | Azure | 🔮 *Long Terme* |
 | **☸️ Kubernetes** | **CKA** (Administrator) | CNCF | 🔮 *Long Terme* |
 | | **CKS** (Security) | CNCF | 🔮 *Long Terme* |
 | **🛡️ Sécurité** | **OSCP** (Offensive Security) | OffSec | 🔮 *Long Terme* |
 | **🔍️ Autres** | **FinOps Foundation** | Environnement | 🔮 *Long Terme* |
-  | **AI security GIAC GAISC/CNF** | **IA (à surveiller)** | 🔮 *Long Terme* |
+|  | **AI security GIAC GAISC/CNF** | **IA (à surveiller)** | 🔮 *Long Terme* |
 
 > **Légende :** ✅ Validé | 📅 Planifié (Court terme) | 🎯 Objectif | 🔮 Objectif Long Terme
 
