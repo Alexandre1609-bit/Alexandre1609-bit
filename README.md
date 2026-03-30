@@ -31,7 +31,7 @@ Je suis actuellement en **DU MPCSI** (Remise à niveau scientifique) pour consol
 ### Philosophie de Travail : "Clean Code First"
 
 Mon approche du développement est rigoureuse et stricte. Je refuse le "copier-coller" aveugle.
-> **Ma règle d'or :** Chaque ligne de code présente sur ce profil a été écrite, comprise et justifiée. Je vise la qualité industrielle (Clean Code) dès mes premiers projets d'étudiant.
+> **Ma règle d'or :** Chaque ligne de code présente sur ce profil a été écrite, comprise et justifiée. Je vise la qualité (Clean Code) dès mes premiers projets d'étudiant.
 >
 > La discipline au quotidien m'aide à ancrer les connaissances apprises sur le long terme.
 
@@ -100,7 +100,7 @@ Voici une sélection de projets où j'applique mes standards de qualité :
 
 Ma curiosité ne s'arrête pas au terminal.
 * **Culture & Langue** : L'apprentissage du Japonais (N2) m'a appris la résilience et l'attention au détail.
-* **Curiosité Insatiable** : Je suis un "touche-à-tout" approfondi. Quand un sujet me passionne, je dois en comprendre le fonctionnement interne.
+* **Curiosité Insatiable** : Je suis un "touche-à-tout". Quand un sujet me passionne, je dois en comprendre le fonctionnement interne.
 * **Veille Active** : Je ne me contente pas de consommer, j'analyse.
 
 ---
