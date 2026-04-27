@@ -24,7 +24,7 @@
 
 Mon parcours est atypique. Diplômé d'une formation linguistique exigeante (**Japonais JLPT N2**, immersion d'une année à l'Université préfectorale d'Aichi), j'ai pivoté vers l'informatique par passion pour la logique structurelle.
 
-Je suis actuellement en **DU MPCSI** (Remise à niveau scientifique) pour consolider mes bases mathématiques avant d'intégrer le **BUT Informatique** (2026). 
+Je suis actuellement en **DU MPCSI** (Remise à niveau scientifique) pour consolider mes bases mathématiques avant d'intégrer un **BUT Informatique** (2026). 
 
 ---
 
