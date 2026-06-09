@@ -1,16 +1,17 @@
+---
 <div align="center">
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=E3C9A2,F5DEB3,FFF8DC&height=220&section=header&text=Alexandre%20Régnier&fontSize=60&fontColor=3B2F2F&fontAlign=50&animation=fadeIn" alt="Header Gradient" />
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C19A6B&center=true&vCenter=true&width=600&lines=Next-Gen+Cloud+Architect;Rust+%26+eBPF+Enthusiast;Quantum-Safe+Security+Advocate;From+Linguistics+to+Machine+Code" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C19A6B&center=true&vCenter=true&width=700&lines=Cloud+•+Platform+•+Security;Building+Himmel+☁️;Kubernetes+|+eBPF+|+DevSecOps;From+Japanese+to+Cloud+Security" alt="Typing SVG" />
   </a>
 
   <br/>
 
   <p align="center">
     <a href="https://github.com/Alexandre1609-bit?tab=repositories">
-      <img src="https://img.shields.io/badge/Focus-Clean%20Code-C19A6B?style=for-the-badge&logo=github&logoColor=white" alt="Clean Code Focus" />
+      <img src="https://img.shields.io/badge/Focus-Cloud%20%26%20Security-C19A6B?style=for-the-badge&logo=github&logoColor=white" alt="Focus" />
     </a>
     <a href="https://www.linkedin.com/in/alexandre-regnier2/">
       <img src="https://img.shields.io/badge/-LinkedIn-FFF8DC?style=for-the-badge&logo=linkedin&logoColor=3B2F2F&labelColor=FFF8DC" alt="LinkedIn" />
@@ -20,51 +21,90 @@
 
 ---
 
-### À propos : Du Japonais au Langage Machine
+# À propos
 
-Mon parcours est atypique. Diplômé d'une formation linguistique exigeante (**Japonais JLPT N2**, immersion d'une année à l'Université préfectorale d'Aichi), j'ai pivoté vers l'informatique par passion pour la logique structurelle.
+Diplômé d'une licence LLCER Japonais (**JLPT N2**) après une année d'échange à l'Université préfectorale d'Aichi, j'ai choisi de me réorienter vers l'informatique.
 
-Je suis actuellement en **DU MPCSI** (Remise à niveau scientifique) pour consolider mes bases mathématiques avant d'intégrer un **BUT Informatique** (2026). 
+Je rejoindrai le **BUT Informatique de l'IUT de Lille** en septembre 2026 après un semestre de remise à niveau scientifique en **DU Tremplin MPCSI**.
 
----
+Aujourd'hui, je consacre l'essentiel de mon temps à la construction de **Himmel**, un homelab Kubernetes bare-metal conçu comme une plateforme DevSecOps miniature inspirée des pratiques utilisées en entreprise.
 
-### Philosophie de Travail : "Clean Code First"
-
-Mon approche du développement est rigoureuse et stricte. Je refuse le "copier-coller" aveugle.
-> **Ma règle d'or :** Chaque ligne de code présente sur ce profil a été écrite, comprise et justifiée. Je vise la qualité (Clean Code) dès mes premiers projets d'étudiant.
->
-> La discipline au quotidien m'aide à ancrer les connaissances apprises sur le long terme.
+Mon objectif à long terme est d'évoluer vers les domaines du **Cloud**, de la **Platform Engineering** et de la **Cybersécurité** dans des environnements critiques et souverains.
 
 ---
 
-### Stack Technique & Apprentissage
+# Ce qui me passionne
 
-Je construis mon expertise brique par brique, en alliant développement backend et infrastructure.
-
-| Domaine | Technologies & Concepts |
-| :--- | :--- |
-| **Backend** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white) |
-| **API & Data** | **FastAPI** (Sentinelle API), **SQL**, JSON/Excel Parsing |
-| **Infrastructure** | ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black) **Projet Himmel (HomeLab Bare-metal)**, **Kubernetes** (Learning), Docker |
-| **Sécurité** | **TryHackMe** (Pre-security / Cyber Security 101) |
+- Cloud Computing
+- Kubernetes & Platform Engineering
+- Cybersécurité Offensive & Défensive
+- Observabilité & Fiabilité des Systèmes
+- Documentation Technique
+- Automatisation & Infrastructure as Code
 
 ---
 
-### Tech Radar (Horizon 2030)
+# Projet principal : Himmel
 
-Je ne me contente pas des standards actuels. Je surveille et j'expérimente les technologies qui définiront l'infrastructure de demain.
+**Himmel** est un cluster Kubernetes bare-metal construit sur trois Lenovo M720 Tiny.
 
-| Vecteur | Technologie | Pourquoi ? |
-| :--- | :--- | :--- |
-| **Performance** | **Rust** | Pour la sécurité mémoire (Memory Safety) |
-| **Noyau** | **eBPF / Cilium** | L'avenir de l'observabilité et de la sécurité réseau |
-| **Défense** | **Post-Quantum Crypto** | Préparation à la menace "Q-Day" |
+L'objectif n'est pas simplement d'héberger des applications mais de reproduire, à petite échelle, les pratiques observées dans les équipes Cloud, Platform et DevSecOps.
+
+### Stack actuelle
+
+- Kubernetes
+- ArgoCD (GitOps)
+- Prometheus
+- Grafana
+- Alertmanager
+- Falco
+- Cilium
+- Kyverno
+- Terraform
+- GitHub Actions
+- Trivy
+- Semgrep
+- Gitleaks
+
+### Roadmap
+
+- Cilium Network Policies
+- SBOM (Syft / Trivy)
+- Cosign
+- SPIFFE / SPIRE
+- Workload Identity
+- Supply Chain Security
 
 ---
 
-### Certifications & Roadmap
+# Actuellement en apprentissage
 
-Validation progressive des compétences standards de l'industrie.
+- CCNA
+- Kubernetes Administration
+- DevSecOps & Cloud Security
+- Linux (CLI & Bash)
+- Red Team Fundamentals (Hack The Box)
+- AWS & Cloud Architecture (via console & implémentation Terraform)
+
+---
+
+# Vision long terme
+
+Je pense que les technologies Cloud et Kubernetes deviendront progressivement des commodités.
+
+La valeur se déplacera davantage vers :
+
+- la sécurité 
+- l'identité 
+- la résilience 
+- la supply chain logicielle 
+- les plateformes cloud souveraines
+
+C'est dans cette direction que j'oriente mon apprentissage.
+
+---
+
+# Certifications & Objectifs
 
 | Domaine | Certification | Organisme | Statut / Cible |
 | :--- | :--- | :--- | :--- |
@@ -85,23 +125,14 @@ Validation progressive des compétences standards de l'industrie.
 
 ---
 
-### Projets Phares
+# Beyond the Code
 
-Voici une sélection de projets où j'applique mes standards de qualité :
-
-* **Projet Himmel : HomeLab K8s (En cours)** : Montage d'un cluster Kubernetes sur matériel physique (Bare-metal) pour maîtriser la chaîne DevSecOps de bout en bout.
-* **Sentinelle API** : Backend sécurisé développé avec FastAPI. Focus sur la documentation et la structure modulaire.
-* **Bibliothèque** : Application complète (Spring Boot, Vanilla JS) sans ORM pour une maîtrise totale du SQL (JDBC), intégrant une architecture MVC stricte et une implémentation manuelle de la sécurité (SHA-256 + Salage).
-* **Neural Network "From Scratch"** : Implémentation d'un réseau de neurones (Dataset Iris) sans framework de haut niveau, pour comprendre les mathématiques sous-jacentes.
-
----
-
-### Beyond the Code
-
-Ma curiosité ne s'arrête pas au terminal.
-* **Culture & Langue** : L'apprentissage du Japonais (N2) m'a appris la résilience et l'attention au détail.
-* **Curiosité Insatiable** : Je suis un "touche-à-tout". Quand un sujet me passionne, je dois en comprendre le fonctionnement interne.
-* **Veille Active** : Je ne me contente pas de consommer, j'analyse.
+- Amateur de café de spécialité
+- Pianiste
+- Running
+- JLPT N2 – année universitaire au Japon
+- Passionné par l'apprentissage continu
+- Convaincu qu'une bonne documentation vaut autant qu'un bon code
 
 ---
 
@@ -109,5 +140,4 @@ Ma curiosité ne s'arrête pas au terminal.
   <a href="mailto:alexandre.regnier59@live.fr">
     <img src="https://img.shields.io/badge/Contact-Email%20Me-C19A6B?style=flat-square&logo=microsoft-outlook&logoColor=white" alt="Email" />
   </a>
-  <br/><br/>
 </div>
