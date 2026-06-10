@@ -79,7 +79,7 @@ L'objectif n'est pas simplement d'héberger des applications mais de reproduire,
 
 # Actuellement en apprentissage
 
-- CCNA
+- CCNA (passage le 1er juillet 2026)
 - Kubernetes Administration
 - DevSecOps & Cloud Security
 - Linux (CLI & Bash)
