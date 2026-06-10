@@ -130,7 +130,7 @@ C'est dans cette direction que j'oriente mon apprentissage.
 - Amateur de café de spécialité
 - Pianiste
 - Running
-- JLPT N2 – année universitaire au Japon
+- Langue, culture, histoire et société japonaise (LLCER japponais, JLPT N2, année universitaire au Japon)
 - Passionné par l'apprentissage continu
 - Convaincu qu'une bonne documentation vaut autant qu'un bon code
 
