@@ -4,7 +4,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=E3C9A2,F5DEB3,FFF8DC&height=220&section=header&text=Alexandre%20Régnier&fontSize=60&fontColor=3B2F2F&fontAlign=50&animation=fadeIn" alt="Header Gradient" />
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C19A6B&center=true&vCenter=true&width=700&lines=Cloud+•+Platform+•+Security;Building+Himmel+☁️;Kubernetes+|+eBPF+|+DevSecOps;From+Japanese+to+Cloud+Security" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C19A6B&center=true&vCenter=true&width=700&lines=Cloud+•+Platform+•+Security;Building+Himmel+☁️;Kubernetes+|+eBPF+|+Platform+Security;From+Japanese+to+Cloud+Security" alt="Typing SVG" />
   </a>
 
   <br/>
@@ -23,7 +23,7 @@
 
 # À propos
 
-Diplômé d'une licence LLCER Japonais (**JLPT N2**) après une année d'échange à l'Université préfectorale d'Aichi, j'ai choisi de me réorienter vers l'informatique.
+Diplômé d'une licence LLCER Japonais (**JLPT N2**) après une année d'échange à l'Université préfectorale d'Aichi, j'ai choisi de me réorienter vers l'informatique après avoir réalisé lors de mon année au Japon que la recherche en Sciences humaines et sociale n'était pas pour moi.
 
 Je rejoindrai le **BUT Informatique de l'IUT de Lille** en septembre 2026 après un semestre de remise à niveau scientifique en **DU Tremplin MPCSI**.
 
@@ -55,7 +55,9 @@ L'objectif n'est pas simplement d'héberger des applications mais de reproduire,
 - Kubernetes
 - ArgoCD (GitOps)
 - Prometheus
+- Loki
 - Grafana
+- Alloy
 - Alertmanager
 - Falco
 - Cilium
@@ -113,12 +115,13 @@ C'est dans cette direction que j'oriente mon apprentissage.
 | **☁️ Infrastructure** | **Terraform Associate** | HashiCorp | 🎯 Target |
 | | **AWS Architect Associate** | AWS | 🔮 *Long Terme* |
 |  | **AWS Certified Security Speciality** | AWS | 🔮 *Long Terme* |
-|  | **Azure Security Engineer** | Azure | 🔮 *Long Terme* |
+|  | **Google Cloud Associate Cloud Engineer** | GCP | 🔮 *Long Terme* |
+|  | **Google Cloud Professional Cloud Security Engineer** | GCP | 🔮 *Long Terme* |
 | **☸️ Kubernetes** | **CKA** (Administrator) | CNCF | 🔮 *Long Terme* |
 | | **CKS** (Security) | CNCF | 🔮 *Long Terme* |
 | **🛡️ Sécurité** | **OSCP** (Offensive Security) | OffSec | 🔮 *Long Terme* |
 | | **AI Security** *(à définir)* | GIAC | 🔮 *Long Terme* |
-| **♻️ FinOps** | **FinOps Practitionner** | FinOps Foundation | 🔮 *Long Terme* |
+| **♻️ FinOps** | **FinOps Practitioner** | FinOps Foundation | 🔮 *Long Terme* |
 
 
 > **Légende :** ✅ Validé | 📅 Planifié (Court terme) | 🎯 Objectif | 🔮 Objectif Long Terme
