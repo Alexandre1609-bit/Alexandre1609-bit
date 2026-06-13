@@ -21,126 +21,114 @@
 
 ---
 
-# À propos
+## À propos
 
-Diplômé d'une licence LLCER Japonais (**JLPT N2**) après une année d'échange à l'Université préfectorale d'Aichi, j'ai choisi de me réorienter vers l'informatique après avoir réalisé lors de mon année au Japon que la recherche en Sciences humaines et sociale n'était pas pour moi.
+**Étudiant en BUT Informatique (2026-2029)** | **Cloud / Platform Engineering / Cybersécurité**
 
-Je rejoindrai le **BUT Informatique de l'IUT de Lille** en septembre 2026 après un semestre de remise à niveau scientifique en **DU Tremplin MPCSI**.
+Diplômé d'une licence **LLCER Japonais (JLPT N2)**, je me suis réorienté vers l’informatique avec une **passion pour les infrastructures cloud-native**.
 
-Aujourd'hui, je consacre l'essentiel de mon temps à la construction de **Himmel**, un homelab Kubernetes bare-metal conçu comme une plateforme DevSecOps miniature inspirée des pratiques utilisées en entreprise.
+Aujourd’hui, je consacre mon temps à **[Projet Himmel](#projet-principal--himmel)**, un **homelab Kubernetes bare-metal** conçu comme une plateforme DevSecOps production-like.
 
-Mon objectif à long terme est d'évoluer vers les domaines du **Cloud**, de la **Platform Engineering** et de la **Cybersécurité** dans des environnements critiques et souverains.
-
----
-
-# Ce qui me passionne
-
-- Cloud Computing
-- Kubernetes & Platform Engineering
-- Cybersécurité Offensive & Défensive
-- Observabilité & Fiabilité des Systèmes
-- Documentation Technique
-- Automatisation & Infrastructure as Code
+**Objectif** : Devenir **SRE / Platform Engineer / Cloud Security Engineer** dans des environnements critiques, avec un focus sur **la sécurité, l’identité et la résilience**.
 
 ---
 
-# Projet principal : Himmel
+## Projet principal : Himmel
 
-**Himmel** est un cluster Kubernetes bare-metal construit sur trois Lenovo M720 Tiny.
+**Homelab Kubernetes bare-metal** conçu comme une plateforme DevSecOps production-like pour apprendre, tester et implémenter les meilleures pratiques du monde professionnel.
 
-L'objectif n'est pas simplement d'héberger des applications mais de reproduire, à petite échelle, les pratiques observées dans les équipes Cloud, Platform et DevSecOps.
+### 🖥️ Architecture
 
-### Stack actuelle
+```text
+Internet → TP-Link RE605X (WiFi 6)
+│
+└─ TP-Link TL-SG108E (L2 Managed Switch)
+   ├─ node01 (Master) - Lenovo M720q - 192.168.1.50
+   ├─ node02 (Worker) - Lenovo M720q - 192.168.1.51
+   └─ node03 (Worker) - Lenovo M720q - 192.168.1.52
+```
 
-- Kubernetes
-- ArgoCD (GitOps)
-- Prometheus
-- Loki
-- Grafana
-- Alloy
-- Alertmanager
-- Falco
-- Cilium
-- Kyverno
-- Terraform
-- GitHub Actions
-- Trivy
-- Semgrep
-- Gitleaks
-
-### Roadmap
-
-- Cilium Network Policies
-- SBOM (Syft / Trivy)
-- Cosign
-- SPIFFE / SPIRE
-- Workload Identity
-- Supply Chain Security
+**OS** : Ubuntu Server 24.04 LTS *(minimal, no Snap, official K8s binaries)*
 
 ---
 
-# Actuellement en apprentissage
+### 🛠️ Stack Technique
 
-- CCNA (passage le 1er juillet 2026)
-- Kubernetes Administration
-- DevSecOps & Cloud Security
-- Linux (CLI & Bash)
-- Red Team Fundamentals (Hack The Box)
-- AWS & Cloud Architecture (via console & implémentation Terraform)
-
----
-
-# Vision long terme
-
-Je pense que les technologies Cloud et Kubernetes deviendront progressivement des commodités.
-
-La valeur se déplacera davantage vers :
-
-- la sécurité 
-- l'identité 
-- la résilience 
-- la supply chain logicielle 
-- les plateformes cloud souveraines
-
-C'est dans cette direction que j'oriente mon apprentissage.
+| **Catégorie** | **Outils** | **Rôle** |
+|--------------|------------|----------|
+| **Orchestration** | Kubernetes v1.31 | Core platform |
+| **IaC** | Terraform, Ansible | Provisioning *(Day-1)* + Configuration *(Day-2)* |
+| **GitOps** | ArgoCD | Déploiement déclaratif *(App of Apps)* |
+| **Réseau** | Cilium *(eBPF)* | CNI + sécurité réseau *(L7 policies)* |
+| **Observabilité** | Prometheus, Grafana, Loki, Alloy, Alertmanager | Métriques, logs, alertes |
+| **Sécurité** | Falco, Kyverno, Trivy, Semgrep, Gitleaks | Runtime security, policy enforcement, scans |
+| **CI/CD** | GitHub Actions | Automatisation des déploiements |
 
 ---
 
-# Certifications & Objectifs
+### 📈 Résultats concrets
 
-| Domaine | Certification | Organisme | Statut / Cible |
-| :--- | :--- | :--- | :--- |
-| **🐧 Système** | **Linux Essentials** | LPI | ✅ **Obtenu** |
-| **🌐 Réseau** | **CCNA** (Routing & Switching) | Cisco | 📅 **Été 2026** |
-| **☁️ Infrastructure** | **Terraform Associate** | HashiCorp | 🎯 Target |
-| | **AWS Architect Associate** | AWS | 🔮 *Long Terme* |
-|  | **AWS Certified Security Speciality** | AWS | 🔮 *Long Terme* |
-|  | **Google Cloud Associate Cloud Engineer** | GCP | 🔮 *Long Terme* |
-|  | **Google Cloud Professional Cloud Security Engineer** | GCP | 🔮 *Long Terme* |
-| **☸️ Kubernetes** | **CKA** (Administrator) | CNCF | 🔮 *Long Terme* |
-| | **CKS** (Security) | CNCF | 🔮 *Long Terme* |
-| **🛡️ Sécurité** | **OSCP** (Offensive Security) | OffSec | 🔮 *Long Terme* |
-| | **AI Security** *(à définir)* | GIAC | 🔮 *Long Terme* |
-| **♻️ FinOps** | **FinOps Practitioner** | FinOps Foundation | 🔮 *Long Terme* |
-
-
-> **Légende :** ✅ Validé | 📅 Planifié (Court terme) | 🎯 Objectif | 🔮 Objectif Long Terme
+✅ **Cluster opérationnel** avec 3 nœuds bare-metal  
+✅ **Déploiement automatisé** via Ansible + Terraform  
+✅ **Observabilité complète** (métriques, logs, alertes)  
+✅ **CI Security Pipeline** (Trivy, Gitleaks, Semgrep, yamllint)  
+✅ **14+ devlogs** à ce jour, documentant les décisions techniques
 
 ---
 
-# Beyond the Code
+### 🎯 Roadmap
 
-- Amateur de café de spécialité
-- Pianiste
-- Running
-- Langue, culture, histoire et société japonaise (LLCER japponais, JLPT N2, année universitaire au Japon)
-- Passionné par l'apprentissage continu
-- Convaincu qu'une bonne documentation vaut autant qu'un bon code
+| **Priorité** | **Élément** | **Statut** |
+|--------------|-------------|------------|
+| ⭐⭐⭐ | Cilium Network Policies | En cours |
+| ⭐⭐⭐ | SBOM *(Syft/Trivy)* | À faire |
+| ⭐⭐ | Cosign | À faire |
+| ⭐⭐ | Workload Identity | À faire |
+| ⭐ | SPIFFE/SPIRE | Long terme |
+| ⭐ | Supply Chain Security | Long terme |
 
 ---
 
-<div align="center">
-  <a href="mailto:alexandre.regnier59@live.fr">
-    <img src="https://img.shields.io/badge/Contact-Email%20Me-C19A6B?style=flat-square&logo=microsoft-outlook&logoColor=white" alt="Email" />
-  </a>
-</div>
+> [📖 **Lire les devlogs détaillés**](https://github.com/Alexandre1609-bit/Projet-Himmel/tree/main/docs)
+
+---
+
+## 📜 Certifications
+
+### ✅ Obtenues
+
+- **LPI Linux Essentials** *(2025)*
+- **TryHackMe Pre-Security / Cyber Security 101** *(2025)*
+
+### 🎯 En cours *(2026)*
+
+- **CCNA 200-301** *(juillet 2026)*
+
+### 🔮 Objectifs *(2027-2032)*
+
+| **Domaine** | **Certification** | **Priorité** |
+|------------|-------------------|--------------|
+| **Kubernetes** | CKA, CKS | ⭐⭐⭐ |
+| **Cloud** | AWS SAA-C03, GCP ACE | ⭐⭐⭐ |
+| **IaC** | Terraform Associate | ⭐⭐⭐ |
+| **Sécurité Cloud** | AWS Security Specialty, GCP PCSE | ⭐⭐ |
+| **Sécurité Offensive** | OSCP | ⭐ |
+
+> *Priorité basée sur mon projet Himmel et mon objectif SRE / Platform Engineer.*
+
+---
+
+## ☕ Beyond the Code
+
+- **Pianiste** 
+- **Running** 
+- **Japon** 
+- **Café de spécialité**
+- **Apprentissage continu**
+- **Documentation** 
+
+---
+
+N'hésitez pas à explorer les dépôts et les devlogs de Himmel ! 
+
+Au plaisir :) 
