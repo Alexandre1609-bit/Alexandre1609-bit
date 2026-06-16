@@ -37,7 +37,7 @@ Aujourd’hui, je consacre mon temps à **[Projet Himmel](#projet-principal--him
 
 **Homelab Kubernetes bare-metal** conçu comme une plateforme DevSecOps production-like pour apprendre, tester et implémenter les meilleures pratiques du monde professionnel.
 
-### 🖥️ Architecture
+### Architecture
 
 ```text
 Internet → TP-Link RE605X (WiFi 6)
@@ -52,7 +52,7 @@ Internet → TP-Link RE605X (WiFi 6)
 
 ---
 
-### 🛠️ Stack Technique
+### Stack Technique
 
 | **Catégorie** | **Outils** | **Rôle** |
 |--------------|------------|----------|
@@ -66,17 +66,17 @@ Internet → TP-Link RE605X (WiFi 6)
 
 ---
 
-### 📈 Résultats concrets
+### Résultats concrets
 
-✅ **Cluster opérationnel** avec 3 nœuds bare-metal  
-✅ **Déploiement automatisé** via Ansible + Terraform  
-✅ **Observabilité complète** (métriques, logs, alertes)  
-✅ **CI Security Pipeline** (Trivy, Gitleaks, Semgrep, yamllint)  
-✅ **14+ devlogs** à ce jour, documentant les décisions techniques
+**Cluster opérationnel** avec 3 nœuds bare-metal  
+**Déploiement automatisé** via Ansible + Terraform  
+**Observabilité complète** (métriques, logs, alertes)  
+**CI Security Pipeline** (Trivy, Gitleaks, Semgrep, yamllint)  
+**14+ devlogs** à ce jour, documentant les décisions techniques
 
 ---
 
-### 🎯 Roadmap
+### Roadmap
 
 | **Priorité** | **Élément** | **Statut** |
 |--------------|-------------|------------|
@@ -89,22 +89,22 @@ Internet → TP-Link RE605X (WiFi 6)
 
 ---
 
-> [📖 **Lire les devlogs détaillés**](https://github.com/Alexandre1609-bit/Projet-Himmel/tree/main/docs)
+> [**Lire les devlogs détaillés**](https://github.com/Alexandre1609-bit/Projet-Himmel/tree/main/docs)
 
 ---
 
-## 📜 Certifications
+## Certifications
 
-### ✅ Obtenues
+### Obtenues
 
 - **LPI Linux Essentials** *(2025)*
 - **TryHackMe Pre-Security / Cyber Security 101** *(2025)*
 
-### 🎯 En cours *(2026)*
+### En cours *(2026)*
 
 - **CCNA 200-301** *(juillet 2026)*
 
-### 🔮 Objectifs *(2027-2032)*
+### Objectifs *(2027-2032)*
 
 | **Domaine** | **Certification** | **Priorité** |
 |------------|-------------------|--------------|
