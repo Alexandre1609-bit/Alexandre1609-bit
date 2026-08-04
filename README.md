@@ -99,10 +99,7 @@ Internet → TP-Link RE605X (WiFi 6)
 
 - **LPI Linux Essentials** *(2025)*
 - **TryHackMe Pre-Security / Cyber Security 101** *(2025)*
-
-### En cours *(2026)*
-
-- **CCNA 200-301** *(juillet 2026)*
+- **CCNA 200-301** *(2026)*
 
 ### Objectifs *(2027-2032)*
 
