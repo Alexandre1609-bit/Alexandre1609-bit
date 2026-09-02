@@ -72,7 +72,7 @@ Internet → TP-Link RE605X (WiFi 6)
 **Déploiement automatisé** via Ansible + Terraform  
 **Observabilité complète** (métriques, logs, alertes)  
 **CI Security Pipeline** (Trivy, Gitleaks, Semgrep, yamllint)  
-**14+ devlogs** à ce jour, documentant les décisions techniques
+**19+ devlogs** à ce jour, documentant les décisions techniques
 
 ---
 
