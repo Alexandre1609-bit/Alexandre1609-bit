@@ -80,7 +80,8 @@ Internet → TP-Link RE605X (WiFi 6)
 
 | **Priorité** | **Élément** | **Statut** |
 |--------------|-------------|------------|
-| ⭐⭐⭐ | Cilium Network Policies | En cours |
+| ⭐⭐⭐⭐ | Approfondissement des connaissances | En cours |
+| ⭐⭐⭐ | Cilium Network Policies | À faire |
 | ⭐⭐⭐ | SBOM *(Syft/Trivy)* | À faire |
 | ⭐⭐ | Cosign | À faire |
 | ⭐⭐ | Workload Identity | À faire |
@@ -117,12 +118,12 @@ Internet → TP-Link RE605X (WiFi 6)
 
 ## ☕ Beyond the Code
 
-- **Pianiste** 
+- **Pianiste**
+- **Lecteur**
 - **Running** 
 - **Japon** 
-- **Café de spécialité**
-- **Apprentissage continu**
-- **Documentation** 
+- **Café**
+- **Apprentissage** 
 
 ---
 
