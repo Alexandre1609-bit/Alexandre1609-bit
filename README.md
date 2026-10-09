@@ -1,132 +1,52 @@
----
-<div align="center">
+# Alexandre Régnier
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=E3C9A2,F5DEB3,FFF8DC&height=220&section=header&text=Alexandre%20Régnier&fontSize=60&fontColor=3B2F2F&fontAlign=50&animation=fadeIn" alt="Header Gradient" />
+**Du japonais à l'infrastructure : j'apprends comment les systèmes tiennent debout, comment ils tombent, et comment on les sécurise.**
 
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C19A6B&center=true&vCenter=true&width=700&lines=Cloud+•+Platform+•+Security;Building+Himmel+☁️;Kubernetes+|+eBPF+|+Platform+Security;From+Japanese+to+Cloud+Security" alt="Typing SVG" />
-  </a>
-
-  <br/>
-
-  <p align="center">
-    <a href="https://github.com/Alexandre1609-bit?tab=repositories">
-      <img src="https://img.shields.io/badge/Focus-Cloud%20%26%20Security-C19A6B?style=for-the-badge&logo=github&logoColor=white" alt="Focus" />
-    </a>
-    <a href="https://www.linkedin.com/in/alexandre-regnier2/">
-      <img src="https://img.shields.io/badge/-LinkedIn-FFF8DC?style=for-the-badge&logo=linkedin&logoColor=3B2F2F&labelColor=FFF8DC" alt="LinkedIn" />
-    </a>
-  </p>
-</div>
+Étudiant en première année de BUT Informatique.
+J’aime comprendre comment les choses fonctionnent, surtout quand elles cassent. Alors je construis, je casse, je répare et j’écris tout ce que j’apprends en chemin !
+[LinkedIn](https://www.linkedin.com/in/alexandre-regnier2/)
 
 ---
 
-## À propos
+## Ce qui m'intéresse
 
-**Étudiant en BUT Informatique (2026-2029)** | **Cloud / Platform Engineering / Cybersécurité**
+- **Sécurité** : approche shift-left, sécurité runtime, supply chain
+- **Infrastructure** : Linux, réseau, automatisation (Ansible, Terraform)
+- **Cloud-native** : Kubernetes, GitOps, observabilité
 
-Diplômé d'une licence **LLCER Japonais (JLPT N2)**, je me suis réorienté vers l’informatique avec une **passion pour les infrastructures cloud-native**.
-
-Aujourd’hui, je consacre mon temps à **[Projet Himmel](#projet-principal--himmel)**, un **homelab Kubernetes bare-metal** conçu comme une plateforme DevSecOps production-like.
-
-**Objectif** : Devenir **SRE / Platform Engineer / Cloud Security Engineer** dans des environnements critiques, avec un focus sur **la sécurité, l’identité et la résilience**.
+Je suis arrivé ici par un chemin atypique : une licence de japonais (LLCER, JLPT N2), puis une réorientation vers l'informatique. Apprendre une langue et apprendre l'infra, c'est le même exercice : accepter de ne rien comprendre au début, puis avancer par petites victoires.
 
 ---
 
-## Projet principal : Himmel
+## Mon terrain d'entraînement : Himmel
 
-**Homelab Kubernetes bare-metal** conçu comme une plateforme DevSecOps production-like pour apprendre, tester et implémenter les meilleures pratiques du monde professionnel.
+Un cluster **Kubernetes bare-metal** (3 Lenovo M720q) que je traite comme un environnement de production : tout est déployé en code, surveillé et scanné.
 
-### Architecture
+**Stack :** Terraform · Ansible · ArgoCD · Cilium (eBPF) · Prometheus / Grafana / Loki · Falco · Kyverno · Trivy · Gitleaks · Semgrep
 
-```text
-Internet → TP-Link RE605X (WiFi 6)
-│
-└─ TP-Link TL-SG108E (L2 Managed Switch)
-   ├─ node01 (Master) - Lenovo M720q - 192.168.1.50
-   ├─ node02 (Worker) - Lenovo M720q - 192.168.1.51
-   └─ node03 (Worker) - Lenovo M720q - 192.168.1.52
-```
+**Un choix que j'assume :** j'ai choisi Cilium parce qu'il réunit réseau, Network Policies, observabilité (Hubble) et beaucoup d'autres fonctionnalités (L2 announcements, Gateway API…). C'est aussi une technologie qui monte, et j'avais envie de me former sur celle-ci.
 
-**OS** : Ubuntu Server 24.04 LTS *(minimal, no Snap, official K8s binaries)*
+Les décisions, les erreurs et les corrections sont dans **20+ devlogs** : [lire les devlogs](https://github.com/Alexandre1609-bit/Projet-Himmel/tree/main/docs).
 
----
-
-### Stack Technique
-
-| **Catégorie** | **Outils** | **Rôle** |
-|--------------|------------|----------|
-| **Orchestration** | Kubernetes v1.31 | Core platform |
-| **IaC** | Terraform, Ansible | Provisioning *(Day-1)* + Configuration *(Day-2)* |
-| **GitOps** | ArgoCD | Déploiement déclaratif *(App of Apps)* |
-| **Réseau** | Cilium *(eBPF)* | CNI + sécurité réseau *(L7 policies)* |
-| **Observabilité** | Prometheus, Grafana, Loki, Alloy, Alertmanager | Métriques, logs, alertes |
-| **Sécurité** | Falco, Kyverno, Trivy, Semgrep, Gitleaks | Runtime security, policy enforcement, scans |
-| **CI/CD** | GitHub Actions | Automatisation des déploiements |
-
----
-
-### Résultats concrets
-
-**Cluster opérationnel** avec 3 nœuds bare-metal  
-**Déploiement automatisé** via Ansible + Terraform  
-**Observabilité complète** (métriques, logs, alertes)  
-**CI Security Pipeline** (Trivy, Gitleaks, Semgrep, yamllint)  
-**19+ devlogs** à ce jour, documentant les décisions techniques
-
----
-
-### Roadmap
-
-| **Priorité** | **Élément** | **Statut** |
-|--------------|-------------|------------|
-| ⭐⭐⭐⭐ | Approfondissement des connaissances | En cours |
-| ⭐⭐⭐ | Cilium Network Policies | À faire |
-| ⭐⭐⭐ | SBOM *(Syft/Trivy)* | À faire |
-| ⭐⭐ | Cosign | À faire |
-| ⭐⭐ | Workload Identity | À faire |
-| ⭐ | SPIFFE/SPIRE | Long terme |
-| ⭐ | Supply Chain Security | Long terme |
-
----
-
-> [**Lire les devlogs détaillés**](https://github.com/Alexandre1609-bit/Projet-Himmel/tree/main/docs)
+**En ce moment :** j'approfondis ce qui est déjà déployé. La suite (Network Policies, SBOM, Cosign, Workload Identity) viendra quand je serai plus à l'aise avec l'existant.
 
 ---
 
 ## Certifications
 
-### Obtenues
+**Obtenues :**
+- **CCNA 200-301** (2026)
+- LPI Linux Essentials (2025)
+- TryHackMe Pre-Security & Cyber Security 101 (2025)
 
-- **LPI Linux Essentials** *(2025)*
-- **TryHackMe Pre-Security / Cyber Security 101** *(2025)*
-- **CCNA 200-301** *(2026)*
-
-### Objectifs *(2027-2032)*
-
-| **Domaine** | **Certification** | **Priorité** |
-|------------|-------------------|--------------|
-| **Kubernetes** | CKA, CKS | ⭐⭐⭐ |
-| **Cloud** | AWS SAA-C03, GCP ACE | ⭐⭐⭐ |
-| **IaC** | Terraform Associate | ⭐⭐⭐ |
-| **Sécurité Cloud** | AWS Security Specialty, GCP PCSE | ⭐⭐ |
-| **Sécurité Offensive** | OSCP | ⭐ |
-
-> *Priorité basée sur mon projet Himmel et mon objectif SRE / Platform Engineer.*
+**Visées :** CKA et Terraform Associate, puis une certification cloud (Aws et / ou Gcp).
 
 ---
 
-## ☕ Beyond the Code
+## En dehors du terminal
 
-- **Pianiste**
-- **Lecteur**
-- **Running** 
-- **Japon** 
-- **Café**
-- **Apprentissage** 
+Piano, lecture, Japon, et probablement trop de café.
 
 ---
 
-N'hésitez pas à explorer les dépôts et les devlogs de Himmel ! 
-
-Au plaisir :) 
+*Si un devlog t'a servi, ou si tu vois une erreur dans mes choix, ouvre une issue : je préfère qu'on me corrige !*
