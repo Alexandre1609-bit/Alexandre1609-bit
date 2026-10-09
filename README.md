@@ -4,6 +4,7 @@
 
 Étudiant en première année de BUT Informatique.
 J’aime comprendre comment les choses fonctionnent, surtout quand elles cassent. Alors je construis, je casse, je répare et j’écris tout ce que j’apprends en chemin !
+
 [LinkedIn](https://www.linkedin.com/in/alexandre-regnier2/)
 
 ---
