@@ -1,7 +1,5 @@
 # Alexandre Régnier
 
-**Du japonais à l'infrastructure : j'apprends comment les systèmes tiennent debout, comment ils tombent, et comment on les sécurise.**
-
 Étudiant en première année de BUT Informatique.
 J’aime comprendre comment les choses fonctionnent, surtout quand elles cassent. Alors je construis, je casse, je répare et j’écris tout ce que j’apprends en chemin !
 
