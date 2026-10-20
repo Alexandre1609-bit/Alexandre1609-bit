@@ -1,7 +1,7 @@
 # Alexandre Régnier
 
 Étudiant en première année de BUT Informatique.
-J’aime comprendre comment les choses fonctionnent, surtout quand elles cassent. Alors je construis, je casse, je répare et j’écris tout ce que j’apprends en chemin !
+J’aime comprendre comment les choses fonctionnent. Je construis, je casse, je répare et j’écris tout ce que j’apprends en chemin !
 
 [LinkedIn](https://www.linkedin.com/in/alexandre-regnier2/)
 
@@ -42,10 +42,6 @@ Les décisions, les erreurs et les corrections sont dans **20+ devlogs** : [lire
 
 ---
 
-## En dehors du terminal
+## En dehors de tout ça
 
 Piano, lecture, Japon, et probablement trop de café.
-
----
-
-*Si un devlog t'a servi, ou si tu vois une erreur dans mes choix, ouvre une issue : je préfère qu'on me corrige !*
